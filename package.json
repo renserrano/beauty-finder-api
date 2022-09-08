@@ -1,23 +1,23 @@
 {
-  "name": "teste-heroku",
+  "name": "beauty-finder-api",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/renserrano/teste-heroku.git"
+    "url": "git+https://github.com/renserrano/beauty-finder-api.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/renserrano/teste-heroku/issues"
+    "url": "https://github.com/renserrano/beauty-finder-api/issues"
   },
-  "homepage": "https://github.com/renserrano/teste-heroku#readme",
+  "homepage": "https://github.com/renserrano/beauty-finder-api#readme",
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "description": ""
 }
