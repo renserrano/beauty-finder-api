@@ -1,11 +1,9 @@
- const servicos = require('servicos');
- const produtos = require('produtos');
+const servicos = require('servicos');
+const produtos = require('produtos');
 
 const PORT = process.env.PORT || 5000;
 const express = require("express");
-const { default: produtos } = require("./produtos");
 const app = express();
-
 
 app.get("/", (request, response) => {
     response.send('<span style="color: #ff00;">Welcome Api Beauty Finder</span>');
