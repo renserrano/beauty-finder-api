@@ -66,3 +66,5 @@ const servicos = [
         ]
     }          
 ]
+
+export default produtos;

@@ -1,5 +1,5 @@
-import servicos from 'servicos.js';
-import produtos from 'produtos.js';
+import { servicos } from './servicos.js';
+import { produtos } from './produtos.js';
 
 const PORT = process.env.PORT || 5000;
 const express = require("express");
