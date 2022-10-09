@@ -14,9 +14,9 @@ app.listen(PORT, () => {
 });
 
 app.get('/servicos', (req, res) => {
-    res.json(lista_servicos);
+    res.json(servicos.lista_servicos);
 });
 
 app.get('/produtos', (req, res) => {
-    res.json(lista_produtos);
+    res.json(produtos.lista_produtos);
 });
