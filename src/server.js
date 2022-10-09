@@ -1,5 +1,5 @@
-const {lista_servicos} = require('./servicos');
-const produtos = require('./produtos');
+// const {lista_servicos} = require('./servicos');
+// const produtos = require('./produtos');
 //const {Student} = require('./module1.js');
 
 const PORT = process.env.PORT || 5000;
@@ -19,5 +19,5 @@ app.get('/servicos', (req, res) => {
 });
 
 app.get('/produtos', (req, res) => {
-    res.json(produtos.lista_produtos);
+    res.json(lista_produtos);
 });
