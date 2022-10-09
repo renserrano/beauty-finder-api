@@ -67,4 +67,4 @@ const servicos = [
     }          
 ]
 
-export default produtos;
+export default servicos;
