@@ -15,3 +15,5 @@ const lista_produtos = [
         ]
     }          
 ]
+
+module.exports = { lista_produtos }
