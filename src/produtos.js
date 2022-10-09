@@ -1,4 +1,4 @@
-const produtos = [
+const lista_produtos = [
     {
         "categoria":"Cremes",
         "produtos":[

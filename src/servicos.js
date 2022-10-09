@@ -1,4 +1,4 @@
-const servicos = [
+const lista_servicos = [
     {
         "categoria":"Unha",
         "servicos":[
