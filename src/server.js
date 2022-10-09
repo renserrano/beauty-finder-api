@@ -14,7 +14,8 @@ app.listen(PORT, () => {
 });
 
 app.get('/servicos', (req, res) => {
-    res.json(servicos.lista_servicos);
+    const result = [servicos.lista_servicos];
+    res.json(result);
 });
 
 app.get('/produtos', (req, res) => {
