@@ -66,5 +66,3 @@ const lista_servicos = [
         ]
     }          
 ]
-
-module.exports = {lista_servicos};

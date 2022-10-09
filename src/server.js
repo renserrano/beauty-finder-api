@@ -15,7 +15,7 @@ app.listen(PORT, () => {
 });
 
 app.get('/servicos', (req, res) => {
-    const result = [servicos.lista_servicos];
+    const result = [lista_servicos];
     res.json(result);
 });
 
