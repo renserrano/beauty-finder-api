@@ -20,3 +20,9 @@ app.get('/servicos', (req, res) => {
 app.get('/produtos', (req, res) => {
     res.json(lista_produtos);
 });
+
+app.all('/', function(req, res, next) { 
+    res.header("Access-Control-Allow-Origin", "*"); 
+    res.header("Access-Control-Allow-Headers", "X-Requested-With"); 
+    next(); 
+});
