@@ -1,5 +1,6 @@
-const servicos = require('./servicos');
+const {lista_servicos} = require('./servicos');
 const produtos = require('./produtos');
+//const {Student} = require('./module1.js');
 
 const PORT = process.env.PORT || 5000;
 const express = require("express");
