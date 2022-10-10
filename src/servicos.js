@@ -84,7 +84,7 @@ const lista_servicos = [
             },
             {
                 "nome":"Centro de Estética Marilda Genézia",
-                "imagem":"imgs/corte2.jpg",
+                "imagem":"imgs/corte2.png",
                 "valor": "R$ 180,00"
             },
             {
