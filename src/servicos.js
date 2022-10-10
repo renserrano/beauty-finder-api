@@ -44,12 +44,12 @@ const lista_servicos = [
         "servicos":[
             {
                 "nome":"Amanda Esteticista",
-                "imagem":"imgs/salao1.jpg",
+                "imagem":"imgs/salao1.jpeg",
                 "valor": "R$ 27,00"
             },
             {
                 "nome":"Camila Mendes Estética e Cuidados da Mulher",
-                "imagem":"imgs/salao2.jpg",
+                "imagem":"imgs/salao2.jpeg",
                 "valor": "R$ 50,00"
             }                        
         ]
@@ -59,12 +59,12 @@ const lista_servicos = [
         "servicos":[
             {
                 "nome":"Salão da Jualiana",
-                "imagem":"imgs/unha002.jpg",
+                "imagem":"imgs/salao7.png",
                 "valor": "R$ 150,00"
             },
             {
                 "nome":"Marta Cabeleireira",
-                "imagem":"imgs/unha002.jpg",
+                "imagem":"imgs/salao6.png",
                 "valor": "R$ 120,00"
             }                        
         ]
@@ -74,7 +74,7 @@ const lista_servicos = [
         "servicos":[
             {
                 "nome":"Salão da Cidinha",
-                "imagem":"imgs/cabelo1.jpg",
+                "imagem":"imgs/cabelo1.png",
                 "valor": "R$ 150,00"
             },
             {
