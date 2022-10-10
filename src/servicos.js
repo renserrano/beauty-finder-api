@@ -44,13 +44,13 @@ const lista_servicos = [
         "servicos":[
             {
                 "nome":"Amanda Esteticista",
-                "imagem":"imgs/unha002.jpg",
+                "imagem":"imgs/salao1.jpg",
                 "valor": "R$ 27,00"
             },
             {
-                "nome":"Exemplo Brinquedo 4",
-                "imagem":"imgs/unha002.jpg",
-                "valor": "R$ 10,00"
+                "nome":"Camila Mendes Estética e Cuidados da Mulher",
+                "imagem":"imgs/salao2.jpg",
+                "valor": "R$ 50,00"
             }                        
         ]
     },
@@ -73,14 +73,24 @@ const lista_servicos = [
         "categoria":"Cabelo",
         "servicos":[
             {
-                "nome":"Exemplo Brinquedo 5",
-                "imagem":"imgs/unha002.jpg",
+                "nome":"Salão da Cidinha",
+                "imagem":"imgs/cabelo1.jpg",
                 "valor": "R$ 150,00"
             },
             {
-                "nome":"Exemplo Brinquedo 6",
-                "imagem":"imgs/unha002.jpg",
+                "nome":"Espaço de Beleza Ezra Fernandes",
+                "imagem":"imgs/corte1.jpg",
                 "valor": "R$ 120,00"
+            },
+            {
+                "nome":"Centro de Estética Marilda Genézia",
+                "imagem":"imgs/corte2.jpg",
+                "valor": "R$ 180,00"
+            },
+            {
+                "nome":"Salão da Naty",
+                "imagem":"imgs/corte3.jpg",
+                "valor": "R$ 220,00"
             }                        
         ]
     },
