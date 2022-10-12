@@ -1,18 +1,18 @@
 const lista_servicos = [
     {
-        "categoria":"Unha",
+        "categoria":"Unhas",
         "servicos":[
             {
                 "nome":"Espaço Vida e Beleza",
                 "imagem":"imgs/mao1.jpeg",
                 "valor": "R$ 35,00",
-                "Endereco": "Rua São Januario, 896, Vila Seixas"
+                "endereco": "Rua São Januario, 896, Vila Seixas"
             },
             {
                 "nome":"Salão Impactus",
                 "imagem":"imgs/mao2.jpeg",
                 "valor": "R$ 42,00",
-                "Endereco": "Av Costa e Silva, 6.795, Maria Casagrande"
+                "endereco": "Av Costa e Silva, 6.795, Maria Casagrande"
             },
             {
                 "nome":"Espaço Dela",
@@ -77,12 +77,7 @@ const lista_servicos = [
                 "imagem":"imgs/salao6.png",
                 "valor": "R$ 120,00",
                 "endereco": "Av Coronel Barbosa Inacio, 438, Ipiranga"
-            }                        
-        ]
-    },
-	{
-        "categoria":"Cabelo",
-        "servicos":[
+            },
             {
                 "nome":"Salão da Cidinha",
                 "imagem":"imgs/cabelo1.png",
@@ -103,10 +98,10 @@ const lista_servicos = [
             },
             {
                 "nome":"Salão da Naty",
-                "imagem":"imgs/corte3.jpg",
+                "imagem":"imgs/pe2.jpeg",
                 "valor": "R$ 220,00",
-                "endereco": "Avenia Molina, 1569, Vila Albertina"
-            }                        
+                "endereco": "Avenida Molina, 1569, Vila Albertina"
+            }                                     
         ]
     },
     {
@@ -114,7 +109,18 @@ const lista_servicos = [
         "servicos":[
                        
         ]
-    }          
+    },
+    {
+        "categoria":"Spa",
+        "servicos":[
+            {
+                "nome":"Spa da 13 - Beleza e Cuidados da Mulher",
+                "imagem":"imgs/pe.jpeg",
+                "valor": "R$ 150,00",
+                "endereco": "Avenida Treze de Maio, 910, Vila João Guilherme"
+            }                         
+        ]
+    }
 ]
 
 module.exports = { lista_servicos }
